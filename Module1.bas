@@ -13,7 +13,10 @@ Public Sub export_xml()
     Print #f, "  <Unit>" & .Range("B2") & "</Unit>"
     Print #f, "  <Angle>" & .Range("B3") & "</Angle>"
     Print #f, "  <SortOrder>" & .Range("B4") & "</SortOrder>"
-    Print #f, "  <ThreadForm>" & .Range("B5") & "</ThreadForm>"
+    If .Range("B5") <> "" Then
+        'If not defined, default shape is trapezoid = 0. Others: 1=sharp, 5=square, 7=whitworth
+        Print #f, "  <ThreadForm>" & .Range("B5") & "</ThreadForm>"
+    End If
     While R(1) <> ""
         DoEvents
         Print #f, "  <ThreadSize>"
@@ -21,7 +24,12 @@ Public Sub export_xml()
         Print #f, "    <Designation>"
         Print #f, "      <ThreadDesignation>" & R(2) & "</ThreadDesignation>"
         Print #f, "      <CTD>" & R(3) & "</CTD>"
-        Print #f, "      <TPI>" & R(4) & "</TPI>"
+        'TPI or Pitch are valid tags depending on thread
+        If StrComp("TPI", .Range("E7"), vbTextCompare) Then
+            Print #f, "      <TPI>" & R(4) & "</TPI>"
+        ElseIf StrComp("Pitch", .Range("E7"), vbTextCompare) Then
+            Print #f, "      <Pitch>" & R(4) & "</Pitch>"
+        End If
         Print #f, "      <Thread>"
         Print #f, "        <Gender>external</Gender>"
         Print #f, "        <Class>" & R(5) & "</Class>"
@@ -35,6 +43,9 @@ Public Sub export_xml()
         Print #f, "        <MajorDia>" & R(10) & "</MajorDia>"
         Print #f, "        <PitchDia>" & R(11) & "</PitchDia>"
         Print #f, "        <MinorDia>" & R(12) & "</MinorDia>"
+        If R(13) <> "" Then
+            Print #f, "        <TapDrill>" & R(13) & "</TapDrill>"
+        End If
         Print #f, "      </Thread>"
         Print #f, "    </Designation>"
         Print #f, "  </ThreadSize>"

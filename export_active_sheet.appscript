@@ -1,0 +1,56 @@
+function export_active_sheet() {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const sheet = ss.getActiveSheet();
+  const name = sheet.getRange("B1").getValue();
+
+  // Create a Blob to hold the XML content
+  const xmlContent = `<?xml version="1.0" encoding = "UTF-8"?>
+<ThreadType>
+  <Name>${sheet.getRange("B1").getValue()}</Name>
+  <CustomName>${sheet.getRange("B1").getValue()}</CustomName>
+  <Unit>${sheet.getRange("B2").getValue()}</Unit>
+  <Angle>${sheet.getRange("B3").getValue()}</Angle>
+  <SortOrder>${sheet.getRange("B4").getValue()}</SortOrder>
+  ${sheet.getRange("B5").getValue() !== "" ? `  <ThreadForm>${sheet.getRange("B5").getValue()}</ThreadForm>` : ''}
+  ${getThreadSizeData(sheet)}
+</ThreadType>`;
+
+  // Create the XML file in the same folder as the spreadsheet
+  const folder = DriveApp.getFileById(ss.getId()).getParents().next();
+  folder.createFile(name + ".xml", xmlContent);
+}
+
+function getThreadSizeData(sheet) {
+  const range = sheet.getRange("A8:Q");
+  const values = range.getValues();
+  let xml = '';
+
+  for (let row of values) {
+    if (row[0] === "") break; // Stop when an empty row is encountered
+
+    xml += `  <ThreadSize>
+    <Size>${row[1]}</Size>
+    <Designation>
+      <ThreadDesignation>${row[3]}</ThreadDesignation>
+      <CTD>${row[4]}</CTD>
+      ${sheet.getRange("C7").getValue() === "TPI" ? `<TPI>${row[2]}</TPI>` : `<Pitch>${row[2]}</Pitch>`}
+      <Thread>
+        <Gender>external</Gender>
+        <Class>${row[5]}</Class>
+        <MajorDia>${row[7]}</MajorDia>
+        <PitchDia>${row[8]}</PitchDia>
+        <MinorDia>${row[9]}</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>${row[10]}</Class>
+        <MajorDia>${row[12]}</MajorDia>
+        <PitchDia>${row[13]}</PitchDia>
+        <MinorDia>${row[14]}</MinorDia>
+        ${row[15] !== "" ? `<TapDrill>${row[15]}</TapDrill>` : ''}
+      </Thread>
+    </Designation>
+  </ThreadSize>\n`;
+  }
+  return xml;
+}

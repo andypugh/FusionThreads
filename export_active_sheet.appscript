@@ -1,3 +1,10 @@
+function onOpen() {
+  const ui = SpreadsheetApp.getUi();
+  ui.createMenu('Export')
+    .addItem('Export to XML', 'export_active_sheet')
+    .addToUi();
+}
+
 function export_active_sheet() {
   const ss = SpreadsheetApp.getActiveSpreadsheet();
   const sheet = ss.getActiveSheet();

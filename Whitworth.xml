@@ -5,9 +5,55 @@
   <Unit>in</Unit>
   <Angle>55</Angle>
   <SortOrder>19</SortOrder>
-  <ThreadForm>7</ThreadForm>
+    <ThreadForm>7</ThreadForm>
+    <ThreadSize>
+    <Size>0.0625</Size>
+    <Designation>
+      <ThreadDesignation>1/16 BSW</ThreadDesignation>
+      <CTD>1/16 - 60 BSW</CTD>
+      <TPI>60</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.059498010384590586</MajorDia>
+        <PitchDia>0.0501168819057088</PitchDia>
+        <MinorDia>0.0368627700806196</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.0625</MajorDia>
+        <PitchDia>0.051827877072382414</PitchDia>
+        <MinorDia>0.04115575414476482</MinorDia>
+        <TapDrill>0.04583333333333334</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
   <ThreadSize>
-    <Size>1/8</Size>
+    <Size>0.09375</Size>
+    <Designation>
+      <ThreadDesignation>3/32 BSW</ThreadDesignation>
+      <CTD>3/32 - 48 BSW</CTD>
+      <TPI>48</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.09037249744462086</MajorDia>
+        <PitchDia>0.07847571945807294</PitchDia>
+        <MinorDia>0.06224881445260283</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.09375</MajorDia>
+        <PitchDia>0.08040984634047801</PitchDia>
+        <MinorDia>0.06706969268095603</MinorDia>
+        <TapDrill>0.07291666666666667</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>0.125</Size>
     <Designation>
       <ThreadDesignation>1/8 BSW</ThreadDesignation>
       <CTD>1/8 - 40 BSW</CTD>
@@ -15,21 +61,22 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>0.12155</MajorDia>
-        <PitchDia>0.10635</PitchDia>
-        <MinorDia>0.08875</MinorDia>
+        <MajorDia>0.12129540926317633</MajorDia>
+        <PitchDia>0.10686836370183414</PitchDia>
+        <MinorDia>0.08769790165023937</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>0.125</MajorDia>
-        <PitchDia>0.11115</PitchDia>
-        <MinorDia>0.0975</MinorDia>
+        <PitchDia>0.10899181560857361</PitchDia>
+        <MinorDia>0.09298363121714723</MinorDia>
+        <TapDrill>0.1</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
   <ThreadSize>
-    <Size>3/16</Size>
+    <Size>0.1875</Size>
     <Designation>
       <ThreadDesignation>3/16 BSW</ThreadDesignation>
       <CTD>3/16 - 24 BSW</CTD>
@@ -37,21 +84,22 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>0.18355</MajorDia>
-        <PitchDia>0.15785</PitchDia>
-        <MinorDia>0.1291</MinorDia>
+        <MajorDia>0.18286367413010504</MajorDia>
+        <PitchDia>0.1582246082633804</PitchDia>
+        <MinorDia>0.12746181803969778</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>0.1875</MajorDia>
-        <PitchDia>0.1634</PitchDia>
-        <MinorDia>0.14075</MinorDia>
+        <PitchDia>0.16081969268095603</PitchDia>
+        <MinorDia>0.13413938536191206</MinorDia>
+        <TapDrill>0.14583333333333334</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
   <ThreadSize>
-    <Size>1/4</Size>
+    <Size>0.25</Size>
     <Designation>
       <ThreadDesignation>1/4 BSW</ThreadDesignation>
       <CTD>1/4 - 20 BSW</CTD>
@@ -59,21 +107,22 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>0.24575</MajorDia>
-        <PitchDia>0.21485</PitchDia>
-        <MinorDia>0.1806</MinorDia>
+        <MajorDia>0.24491521004942046</MajorDia>
+        <PitchDia>0.21513490924406747</PitchDia>
+        <MinorDia>0.17864640450621513</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>0.25</MajorDia>
-        <PitchDia>0.2209</PitchDia>
-        <MinorDia>0.1945</MinorDia>
+        <PitchDia>0.21798363121714723</PitchDia>
+        <MinorDia>0.18596726243429446</MinorDia>
+        <TapDrill>0.2</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
   <ThreadSize>
-    <Size>5/16</Size>
+    <Size>0.3125</Size>
     <Designation>
       <ThreadDesignation>5/16 BSW</ThreadDesignation>
       <CTD>5/16 - 18 BSW</CTD>
@@ -81,21 +130,22 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>0.3079</MajorDia>
-        <PitchDia>0.2735</PitchDia>
-        <MinorDia>0.23555</MinorDia>
+        <MajorDia>0.30711102536579993</MajorDia>
+        <PitchDia>0.27389430487769645</PitchDia>
+        <MinorDia>0.2336065165777275</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>0.3125</MajorDia>
-        <PitchDia>0.28005</PitchDia>
-        <MinorDia>0.25035</MinorDia>
+        <PitchDia>0.27692625690794137</PitchDia>
+        <MinorDia>0.24135251381588274</MinorDia>
+        <TapDrill>0.2569444444444444</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
   <ThreadSize>
-    <Size>3/8</Size>
+    <Size>0.375</Size>
     <Designation>
       <ThreadDesignation>3/8 BSW</ThreadDesignation>
       <CTD>3/8 - 16 BSW</CTD>
@@ -103,21 +153,22 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>0.3701</MajorDia>
-        <PitchDia>0.33135</PitchDia>
-        <MinorDia>0.28885</MinorDia>
+        <MajorDia>0.3692814169962147</MajorDia>
+        <PitchDia>0.33176095601764877</PitchDia>
+        <MinorDia>0.2867404950390828</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>0.375</MajorDia>
-        <PitchDia>0.3384</PitchDia>
-        <MinorDia>0.30475</MinorDia>
+        <PitchDia>0.33497953902143407</PitchDia>
+        <MinorDia>0.2949590780428681</MinorDia>
+        <TapDrill>0.3125</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
   <ThreadSize>
-    <Size>7/16</Size>
+    <Size>0.4375</Size>
     <Designation>
       <ThreadDesignation>7/16 BSW</ThreadDesignation>
       <CTD>7/16 - 14 BSW</CTD>
@@ -125,21 +176,22 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>0.43225</MajorDia>
-        <PitchDia>0.3879</PitchDia>
-        <MinorDia>0.33955</MinorDia>
+        <MajorDia>0.43141011277701047</MajorDia>
+        <PitchDia>0.38834505550634507</PitchDia>
+        <MinorDia>0.3372621609783069</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>0.4375</MajorDia>
-        <PitchDia>0.39545</PitchDia>
-        <MinorDia>0.35675</MinorDia>
+        <PitchDia>0.39176233031021035</PitchDia>
+        <MinorDia>0.3460246606204207</MinorDia>
+        <TapDrill>0.3660714285714286</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
   <ThreadSize>
-    <Size>1/2</Size>
+    <Size>0.5</Size>
     <Designation>
       <ThreadDesignation>1/2 BSW</ThreadDesignation>
       <CTD>1/2 - 12 BSW</CTD>
@@ -147,21 +199,22 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>0.49445</MajorDia>
-        <PitchDia>0.4425</PitchDia>
-        <MinorDia>0.3862</MinorDia>
+        <MajorDia>0.49347471443010565</MajorDia>
+        <PitchDia>0.44300085113796583</PitchDia>
+        <MinorDia>0.38386673380798164</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>0.5</MajorDia>
-        <PitchDia>0.45045</PitchDia>
-        <MinorDia>0.40505</MinorDia>
+        <PitchDia>0.44663938536191206</PitchDia>
+        <MinorDia>0.3932787707238241</MinorDia>
+        <TapDrill>0.4166666666666667</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
   <ThreadSize>
-    <Size>9/16</Size>
+    <Size>0.5625</Size>
     <Designation>
       <ThreadDesignation>9/16 BSW</ThreadDesignation>
       <CTD>9/16 - 12 BSW</CTD>
@@ -169,21 +222,22 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>0.5568</MajorDia>
-        <PitchDia>0.50485</PitchDia>
-        <MinorDia>0.44855</MinorDia>
+        <MajorDia>0.5559111518576265</MajorDia>
+        <PitchDia>0.5054372885654868</PitchDia>
+        <MinorDia>0.44630317123550256</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>0.5625</MajorDia>
-        <PitchDia>0.5131</PitchDia>
-        <MinorDia>0.46755</MinorDia>
+        <PitchDia>0.5091393853619121</PitchDia>
+        <MinorDia>0.4557787707238241</MinorDia>
+        <TapDrill>0.4791666666666667</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
   <ThreadSize>
-    <Size>5/8</Size>
+    <Size>0.625</Size>
     <Designation>
       <ThreadDesignation>5/8 BSW</ThreadDesignation>
       <CTD>5/8 - 11 BSW</CTD>
@@ -191,21 +245,22 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>0.619</MajorDia>
-        <PitchDia>0.5623</PitchDia>
-        <MinorDia>0.5011</MinorDia>
+        <MajorDia>0.6181325718797602</MajorDia>
+        <PitchDia>0.562936105720351</PitchDia>
+        <MinorDia>0.49869429922360886</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>0.625</MajorDia>
-        <PitchDia>0.571</PitchDia>
-        <MinorDia>0.5212</MinorDia>
+        <PitchDia>0.5667884203948131</PitchDia>
+        <MinorDia>0.5085768407896263</MinorDia>
+        <TapDrill>0.5340909090909091</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
   <ThreadSize>
-    <Size>11/16</Size>
+    <Size>0.6875</Size>
     <Designation>
       <ThreadDesignation>11/16 BSW</ThreadDesignation>
       <CTD>11/16 - 11 BSW</CTD>
@@ -213,21 +268,22 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>0.6814</MajorDia>
-        <PitchDia>0.6247</PitchDia>
-        <MinorDia>0.5635</MinorDia>
+        <MajorDia>0.6805773736587739</MajorDia>
+        <PitchDia>0.6253809074993647</PitchDia>
+        <MinorDia>0.5611391010026225</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>0.6875</MajorDia>
-        <PitchDia>0.6336</PitchDia>
-        <MinorDia>0.5837</MinorDia>
+        <PitchDia>0.6292884203948131</PitchDia>
+        <MinorDia>0.5710768407896263</MinorDia>
+        <TapDrill>0.5965909090909091</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
   <ThreadSize>
-    <Size>3/4</Size>
+    <Size>0.75</Size>
     <Designation>
       <ThreadDesignation>3/4 BSW</ThreadDesignation>
       <CTD>3/4 - 10 BSW</CTD>
@@ -235,21 +291,22 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>0.7436</MajorDia>
-        <PitchDia>0.6812</PitchDia>
-        <MinorDia>0.61405</MinorDia>
+        <MajorDia>0.7427736979335205</MajorDia>
+        <PitchDia>0.6819032380279835</PitchDia>
+        <MinorDia>0.611545945141941</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>0.75</MajorDia>
-        <PitchDia>0.6905</PitchDia>
-        <MinorDia>0.6355</MinorDia>
+        <PitchDia>0.6859672624342945</PitchDia>
+        <MinorDia>0.6219345248685889</MinorDia>
+        <TapDrill>0.65</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
   <ThreadSize>
-    <Size>7/8</Size>
+    <Size>0.875</Size>
     <Designation>
       <ThreadDesignation>7/8 BSW</ThreadDesignation>
       <CTD>7/8 - 9 BSW</CTD>
@@ -257,16 +314,17 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>0.87015</MajorDia>
-        <PitchDia>0.8007</PitchDia>
-        <MinorDia>0.72625</MinorDia>
+        <MajorDia>0.8673852909059238</MajorDia>
+        <PitchDia>0.7995711380551398</PitchDia>
+        <MinorDia>0.7217569852043559</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>0.875</MajorDia>
-        <PitchDia>0.8087</PitchDia>
-        <MinorDia>0.7474</MinorDia>
+        <PitchDia>0.8038525138158827</PitchDia>
+        <MinorDia>0.7327050276317655</MinorDia>
+        <TapDrill>0.7638888888888888</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
@@ -279,21 +337,22 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>0.99485</MajorDia>
-        <PitchDia>0.9166</PitchDia>
-        <MinorDia>0.83305</MinorDia>
+        <MajorDia>0.991952351261146</MajorDia>
+        <PitchDia>0.9154469632099469</PitchDia>
+        <MinorDia>0.8283349734409495</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>1</MajorDia>
-        <PitchDia>0.9251</PitchDia>
-        <MinorDia>0.856</MinorDia>
+        <PitchDia>0.9199590780428681</PitchDia>
+        <MinorDia>0.8399181560857362</MinorDia>
+        <TapDrill>0.875</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
   <ThreadSize>
-    <Size>1 1/8</Size>
+    <Size>1.125</Size>
     <Designation>
       <ThreadDesignation>1 1/8 BSW</ThreadDesignation>
       <CTD>1 1/8 - 7 BSW</CTD>
@@ -301,21 +360,22 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>1.1195</MajorDia>
-        <PitchDia>1.0299</PitchDia>
-        <MinorDia>0.9346</MinorDia>
+        <MajorDia>1.1164547077265632</MajorDia>
+        <PitchDia>1.0287590130770763</PitchDia>
+        <MinorDia>0.9297243842373124</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>1.125</MajorDia>
-        <PitchDia>1.03885</PitchDia>
-        <MinorDia>0.9598</MinorDia>
+        <PitchDia>1.0335246606204207</PitchDia>
+        <MinorDia>0.9420493212408414</MinorDia>
+        <TapDrill>0.9821428571428572</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
   <ThreadSize>
-    <Size>1 1/4</Size>
+    <Size>1.25</Size>
     <Designation>
       <ThreadDesignation>1 1/4 BSW</ThreadDesignation>
       <CTD>1 1/4 - 7 BSW</CTD>
@@ -323,21 +383,22 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>1.2444</MajorDia>
-        <PitchDia>1.1548</PitchDia>
-        <MinorDia>1.0595</MinorDia>
+        <MajorDia>1.2413803568595834</MajorDia>
+        <PitchDia>1.1536846622100962</PitchDia>
+        <MinorDia>1.0546500333703324</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>1.25</MajorDia>
-        <PitchDia>1.16405</PitchDia>
-        <MinorDia>1.0848</MinorDia>
+        <PitchDia>1.1585246606204207</PitchDia>
+        <MinorDia>1.0670493212408414</MinorDia>
+        <TapDrill>1.1071428571428572</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
   <ThreadSize>
-    <Size>1 1/2</Size>
+    <Size>1.5</Size>
     <Designation>
       <ThreadDesignation>1 1/2 BSW</ThreadDesignation>
       <CTD>1 1/2 - 6 BSW</CTD>
@@ -345,21 +406,22 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>1.49395</MajorDia>
-        <PitchDia>1.3893</PitchDia>
-        <MinorDia>1.2785</MinorDia>
+        <MajorDia>1.4907273482602101</MajorDia>
+        <PitchDia>1.388088601888673</PitchDia>
+        <MinorDia>1.2732024068032197</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>1.5</MajorDia>
-        <PitchDia>1.3993</PitchDia>
-        <MinorDia>1.30675</MinorDia>
+        <PitchDia>1.3932787707238241</PitchDia>
+        <MinorDia>1.2865575414476482</MinorDia>
+        <TapDrill>1.3333333333333333</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
   <ThreadSize>
-    <Size>1 3/4</Size>
+    <Size>1.75</Size>
     <Designation>
       <ThreadDesignation>1 3/4 BSW</ThreadDesignation>
       <CTD>1 3/4 - 5 BSW</CTD>
@@ -367,16 +429,17 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>1.74345</MajorDia>
-        <PitchDia>1.6176</PitchDia>
-        <MinorDia>1.48505</MinorDia>
+        <MajorDia>1.7399401199344555</MajorDia>
+        <PitchDia>1.616346780758044</PitchDia>
+        <MinorDia>1.4793370337166336</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>1.75</MajorDia>
-        <PitchDia>1.62835</PitchDia>
-        <MinorDia>1.5173</MinorDia>
+        <PitchDia>1.621934524868589</PitchDia>
+        <MinorDia>1.4938690497371778</MinorDia>
+        <TapDrill>1.55</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
@@ -389,21 +452,22 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>1.9931</MajorDia>
-        <PitchDia>1.85315</PitchDia>
-        <MinorDia>1.70615</MinorDia>
+        <MajorDia>1.989416626248405</MajorDia>
+        <PitchDia>1.8518356990880809</PitchDia>
+        <MinorDia>1.7001126363040255</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>2</MajorDia>
-        <PitchDia>1.86455</PitchDia>
-        <MinorDia>1.7411</MinorDia>
+        <PitchDia>1.8577050276317655</PitchDia>
+        <MinorDia>1.715410055263531</MinorDia>
+        <TapDrill>1.7777777777777777</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
   <ThreadSize>
-    <Size>2 1/4</Size>
+    <Size>2.25</Size>
     <Designation>
       <ThreadDesignation>2 1/4 BSW</ThreadDesignation>
       <CTD>2 1/4 - 4 BSW</CTD>
@@ -411,21 +475,22 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>2.2427</MajorDia>
-        <PitchDia>2.0851</PitchDia>
-        <MinorDia>1.92</MinorDia>
+        <MajorDia>2.2388265917388352</MajorDia>
+        <PitchDia>2.0837447478245714</PitchDia>
+        <MinorDia>1.9136629039103077</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>2.25</MajorDia>
-        <PitchDia>2.0971</PitchDia>
-        <MinorDia>1.9583</MinorDia>
+        <PitchDia>2.0899181560857363</PitchDia>
+        <MinorDia>1.9298363121714723</MinorDia>
+        <TapDrill>2</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
   <ThreadSize>
-    <Size>2 1/2</Size>
+    <Size>2.5</Size>
     <Designation>
       <ThreadDesignation>2 1/2 BSW</ThreadDesignation>
       <CTD>2 1/2 - 4 BSW</CTD>
@@ -433,21 +498,22 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>2.4925</MajorDia>
-        <PitchDia>2.3349</PitchDia>
-        <MinorDia>2.1698</MinorDia>
+        <MajorDia>2.4887329155164495</MajorDia>
+        <PitchDia>2.3336510716021857</PitchDia>
+        <MinorDia>2.1635692276879217</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>2.5</MajorDia>
-        <PitchDia>2.34735</PitchDia>
-        <MinorDia>2.2083</MinorDia>
+        <PitchDia>2.3399181560857363</PitchDia>
+        <MinorDia>2.1798363121714726</MinorDia>
+        <TapDrill>2.25</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
   <ThreadSize>
-    <Size>2 3/4</Size>
+    <Size>2.75</Size>
     <Designation>
       <ThreadDesignation>2 3/4 BSW</ThreadDesignation>
       <CTD>2 3/4 - 3.5 BSW</CTD>
@@ -455,16 +521,17 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>2.74215</MajorDia>
-        <PitchDia>2.5618</PitchDia>
-        <MinorDia>2.37345</MinorDia>
+        <MajorDia>2.7380547751952413</MajorDia>
+        <PitchDia>2.560449321274331</PitchDia>
+        <MinorDia>2.3668081928386755</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>2.75</MajorDia>
-        <PitchDia>2.57485</PitchDia>
-        <MinorDia>2.41605</MinorDia>
+        <PitchDia>2.5670493212408414</PitchDia>
+        <MinorDia>2.384098642481683</MinorDia>
+        <TapDrill>2.4642857142857144</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
@@ -477,21 +544,22 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>2.99195</MajorDia>
-        <PitchDia>2.8116</PitchDia>
-        <MinorDia>2.62325</MinorDia>
+        <MajorDia>2.987972315385282</MajorDia>
+        <PitchDia>2.8103668614643715</PitchDia>
+        <MinorDia>2.616725733028716</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>3</MajorDia>
-        <PitchDia>2.82505</PitchDia>
-        <MinorDia>2.66605</MinorDia>
+        <PitchDia>2.8170493212408414</PitchDia>
+        <MinorDia>2.634098642481683</MinorDia>
+        <TapDrill>2.7142857142857144</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
   <ThreadSize>
-    <Size>3 1/4</Size>
+    <Size>3.25</Size>
     <Designation>
       <ThreadDesignation>3 1/4 BSW</ThreadDesignation>
       <CTD>3 1/4 - 3.25 BSW</CTD>
@@ -499,21 +567,22 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>3.24165</MajorDia>
-        <PitchDia>3.04745</PitchDia>
-        <MinorDia>2.8449</MinorDia>
+        <MajorDia>3.2375491719528937</MajorDia>
+        <PitchDia>3.0460723660206677</PitchDia>
+        <MinorDia>2.8379545542016844</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>3.25</MajorDia>
-        <PitchDia>3.06135</PitchDia>
-        <MinorDia>2.89025</MinorDia>
+        <PitchDia>3.0529761921055214</PitchDia>
+        <MinorDia>2.855952384211043</MinorDia>
+        <TapDrill>2.9423076923076925</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
   <ThreadSize>
-    <Size>3 1/2</Size>
+    <Size>3.5</Size>
     <Designation>
       <ThreadDesignation>3 1/2 BSW</ThreadDesignation>
       <CTD>3 1/2 - 3.25 BSW</CTD>
@@ -521,21 +590,22 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>3.4915</MajorDia>
-        <PitchDia>3.2973</PitchDia>
-        <MinorDia>3.09475</MinorDia>
+        <MajorDia>3.4874750790494256</MajorDia>
+        <PitchDia>3.295998273117199</PitchDia>
+        <MinorDia>3.0878804612982163</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>3.5</MajorDia>
-        <PitchDia>3.31155</PitchDia>
-        <MinorDia>3.14025</MinorDia>
+        <PitchDia>3.3029761921055214</PitchDia>
+        <MinorDia>3.105952384211043</MinorDia>
+        <TapDrill>3.1923076923076925</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
   <ThreadSize>
-    <Size>3 3/4</Size>
+    <Size>3.75</Size>
     <Designation>
       <ThreadDesignation>3 3/4 BSW</ThreadDesignation>
       <CTD>3 3/4 - 3 BSW</CTD>
@@ -543,16 +613,17 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>3.7412</MajorDia>
-        <PitchDia>3.5307</PitchDia>
-        <MinorDia>3.3115</MinorDia>
+        <MajorDia>3.737016998458194</MajorDia>
+        <PitchDia>3.5293480425977384</PitchDia>
+        <MinorDia>3.304358578661594</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>3.75</MajorDia>
-        <PitchDia>3.54545</PitchDia>
-        <MinorDia>3.36005</MinorDia>
+        <PitchDia>3.5365575414476482</PitchDia>
+        <MinorDia>3.3231150828952964</MinorDia>
+        <TapDrill>3.4166666666666665</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
@@ -565,21 +636,22 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>3.9911</MajorDia>
-        <PitchDia>3.78055</PitchDia>
-        <MinorDia>3.5614</MinorDia>
+        <MajorDia>3.9869494288602114</MajorDia>
+        <PitchDia>3.779280472999756</PitchDia>
+        <MinorDia>3.5542910090636117</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>4</MajorDia>
-        <PitchDia>3.79565</PitchDia>
-        <MinorDia>3.61005</MinorDia>
+        <PitchDia>3.7865575414476482</PitchDia>
+        <MinorDia>3.5731150828952964</MinorDia>
+        <TapDrill>3.6666666666666665</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
   <ThreadSize>
-    <Size>4 1/2</Size>
+    <Size>4.5</Size>
     <Designation>
       <ThreadDesignation>4 1/2 BSW</ThreadDesignation>
       <CTD>4 1/2 - 2.875 BSW</CTD>
@@ -587,16 +659,17 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>4.49075</MajorDia>
-        <PitchDia>4.271</PitchDia>
-        <MinorDia>4.0424</MinorDia>
+        <MajorDia>4.486609897285464</MajorDia>
+        <PitchDia>4.269785010085728</PitchDia>
+        <MinorDia>4.035267088147403</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>4.5</MajorDia>
-        <PitchDia>4.28675</PitchDia>
-        <MinorDia>4.0929</MinorDia>
+        <PitchDia>4.277277434554068</PitchDia>
+        <MinorDia>4.054554869108135</MinorDia>
+        <TapDrill>4.1521739130434785</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
@@ -609,21 +682,22 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>4.9904</MajorDia>
-        <PitchDia>4.76065</PitchDia>
-        <MinorDia>4.5218</MinorDia>
+        <MajorDia>4.98626514375952</MajorDia>
+        <PitchDia>4.7594490522303285</PitchDia>
+        <MinorDia>4.51454228002647</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>5</MajorDia>
-        <PitchDia>4.77705</PitchDia>
-        <MinorDia>4.57425</MinorDia>
+        <PitchDia>4.767153681579253</PitchDia>
+        <MinorDia>4.534307363158505</MinorDia>
+        <TapDrill>4.636363636363637</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
   <ThreadSize>
-    <Size>5 1/2</Size>
+    <Size>5.5</Size>
     <Designation>
       <ThreadDesignation>5 1/2 BSW</ThreadDesignation>
       <CTD>5 1/2 - 2.625 BSW</CTD>
@@ -631,16 +705,17 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>5.4901</MajorDia>
-        <PitchDia>5.24925</PitchDia>
-        <MinorDia>4.9992</MinorDia>
+        <MajorDia>5.485912010475225</MajorDia>
+        <PitchDia>5.248149906128164</PitchDia>
+        <MinorDia>4.991871399785651</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>5.5</MajorDia>
-        <PitchDia>5.26635</PitchDia>
-        <MinorDia>5.0538</MinorDia>
+        <PitchDia>5.2560657616544555</PitchDia>
+        <MinorDia>5.01213152330891</MinorDia>
+        <TapDrill>5.119047619047619</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
@@ -653,17 +728,709 @@
       <Thread>
         <Gender>external</Gender>
         <Class>Medium</Class>
-        <MajorDia>5.98975</MajorDia>
-        <PitchDia>5.73685</PitchDia>
-        <MinorDia>5.4744</MinorDia>
+        <MajorDia>5.985547395867041</MajorDia>
+        <PitchDia>5.7357410009245555</PitchDia>
+        <MinorDia>5.46696094002106</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>Medium</Class>
         <MajorDia>6</MajorDia>
-        <PitchDia>5.7545</PitchDia>
-        <MinorDia>5.5313</MinorDia>
+        <PitchDia>5.743869049737178</PitchDia>
+        <MinorDia>5.487738099474356</MinorDia>
+        <TapDrill>5.6</TapDrill>
       </Thread>
     </Designation>
   </ThreadSize>
-  </ThreadType>
+  <ThreadSize>
+    <Size>0.1875</Size>
+    <Designation>
+      <ThreadDesignation>3/16 BSF</ThreadDesignation>
+      <CTD>3/16 - 32 BSF</CTD>
+      <TPI>32</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.1833314613880197</MajorDia>
+        <PitchDia>0.16508899785170308</PitchDia>
+        <MinorDia>0.14154323345648737</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.1875</MajorDia>
+        <PitchDia>0.16748976951071703</PitchDia>
+        <MinorDia>0.14747953902143404</MinorDia>
+        <TapDrill>0.15625</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>0.2188</Size>
+    <Designation>
+      <ThreadDesignation>7/32 BSF</ThreadDesignation>
+      <CTD>7/32 - 28 BSF</CTD>
+      <TPI>28</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.2143622328347711</MajorDia>
+        <PitchDia>0.1933832203549224</PitchDia>
+        <MinorDia>0.1667347407799353</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.2188</MajorDia>
+        <PitchDia>0.19593116515510517</PitchDia>
+        <MinorDia>0.17306233031021034</MinorDia>
+        <TapDrill>0.1830857142857143</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>0.25</Size>
+    <Designation>
+      <ThreadDesignation>1/4 BSF</ThreadDesignation>
+      <CTD>1/4 - 26 BSF</CTD>
+      <TPI>26</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.24538544700796158</MajorDia>
+        <PitchDia>0.2227186323725336</PitchDia>
+        <MinorDia>0.1941683336829601</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.25</MajorDia>
+        <PitchDia>0.22537202401319018</PitchDia>
+        <MinorDia>0.20074404802638035</MinorDia>
+        <TapDrill>0.21153846153846154</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>0.2812</Size>
+    <Designation>
+      <ThreadDesignation>9/32 BSF</ThreadDesignation>
+      <CTD>9/32 - 26 BSF</CTD>
+      <TPI>26</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.2765350750169509</MajorDia>
+        <PitchDia>0.25386826038152294</PitchDia>
+        <MinorDia>0.22531796169194943</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.2812</MajorDia>
+        <PitchDia>0.2565720240131902</PitchDia>
+        <MinorDia>0.23194404802638036</MinorDia>
+        <TapDrill>0.24273846153846154</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>0.3125</Size>
+    <Designation>
+      <ThreadDesignation>5/16 BSF</ThreadDesignation>
+      <CTD>5/16 - 22 BSF</CTD>
+      <TPI>22</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.30749592178613083</MajorDia>
+        <PitchDia>0.28052213914709345</PitchDia>
+        <MinorDia>0.24715233501738784</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.3125</MajorDia>
+        <PitchDia>0.28339421019740657</PitchDia>
+        <MinorDia>0.25428842039481314</MinorDia>
+        <TapDrill>0.26704545454545453</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>0.375</Size>
+    <Designation>
+      <ThreadDesignation>3/8 BSF</ThreadDesignation>
+      <CTD>3/8 - 20 BSF</CTD>
+      <TPI>20</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.3697328815290079</MajorDia>
+        <PitchDia>0.339952580723655</PitchDia>
+        <MinorDia>0.3034640759858026</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.375</MajorDia>
+        <PitchDia>0.34298363121714726</PitchDia>
+        <MinorDia>0.31096726243429446</MinorDia>
+        <TapDrill>0.325</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>0.4375</Size>
+    <Designation>
+      <ThreadDesignation>7/16 BSF</ThreadDesignation>
+      <CTD>7/16 - 18 BSF</CTD>
+      <TPI>18</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.43194993968815953</MajorDia>
+        <PitchDia>0.39873321920005605</PitchDia>
+        <MinorDia>0.3584454309000871</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.4375</MajorDia>
+        <PitchDia>0.40192625690794137</PitchDia>
+        <MinorDia>0.36635251381588274</MinorDia>
+        <TapDrill>0.3819444444444444</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>0.5</Size>
+    <Designation>
+      <ThreadDesignation>1/2 BSF</ThreadDesignation>
+      <CTD>1/2 - 16 BSF</CTD>
+      <TPI>16</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.4941362655145539</MajorDia>
+        <PitchDia>0.456615804535988</PitchDia>
+        <MinorDia>0.411595343557422</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.5</MajorDia>
+        <PitchDia>0.45997953902143407</PitchDia>
+        <MinorDia>0.4199590780428681</MinorDia>
+        <TapDrill>0.4375</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>0.5625</Size>
+    <Designation>
+      <ThreadDesignation>9/16 BSF</ThreadDesignation>
+      <CTD>9/16 - 16 BSF</CTD>
+      <TPI>16</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.5565727029420748</MajorDia>
+        <PitchDia>0.5190522419635089</PitchDia>
+        <MinorDia>0.47403178098494286</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.5625</MajorDia>
+        <PitchDia>0.5224795390214341</PitchDia>
+        <MinorDia>0.4824590780428681</MinorDia>
+        <TapDrill>0.5</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>0.625</Size>
+    <Designation>
+      <ThreadDesignation>5/8 BSF</ThreadDesignation>
+      <CTD>5/8 - 14 BSF</CTD>
+      <TPI>14</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.6187184313162716</MajorDia>
+        <PitchDia>0.5756533740456062</PitchDia>
+        <MinorDia>0.5245704795175681</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.625</MajorDia>
+        <PitchDia>0.5792623303102103</PitchDia>
+        <MinorDia>0.5335246606204207</MinorDia>
+        <TapDrill>0.5535714285714286</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>0.6875</Size>
+    <Designation>
+      <ThreadDesignation>11/16 BSF</ThreadDesignation>
+      <CTD>11/16 - 14 BSF</CTD>
+      <TPI>14</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.6811632330952853</MajorDia>
+        <PitchDia>0.6380981758246198</PitchDia>
+        <MinorDia>0.5870152812965818</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.6875</MajorDia>
+        <PitchDia>0.6417623303102103</PitchDia>
+        <MinorDia>0.5960246606204207</MinorDia>
+        <TapDrill>0.6160714285714286</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>0.75</Size>
+    <Designation>
+      <ThreadDesignation>3/4 BSF</ThreadDesignation>
+      <CTD>3/4 - 12 BSF</CTD>
+      <TPI>12</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.7432449948892418</MajorDia>
+        <PitchDia>0.6927711315971019</PitchDia>
+        <MinorDia>0.6336370142671177</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.75</MajorDia>
+        <PitchDia>0.6966393853619121</PitchDia>
+        <MinorDia>0.6432787707238241</MinorDia>
+        <TapDrill>0.6666666666666666</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>0.875</Size>
+    <Designation>
+      <ThreadDesignation>7/8 BSF</ThreadDesignation>
+      <CTD>7/8 - 11 BSF</CTD>
+      <TPI>11</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.8679296166436645</MajorDia>
+        <PitchDia>0.8127331504842553</PitchDia>
+        <MinorDia>0.7484913439875132</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.875</MajorDia>
+        <PitchDia>0.8167884203948131</PitchDia>
+        <MinorDia>0.7585768407896263</MinorDia>
+        <TapDrill>0.7840909090909091</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>1</Size>
+    <Designation>
+      <ThreadDesignation>1 BSF</ThreadDesignation>
+      <CTD>1 - 10 BSF</CTD>
+      <TPI>10</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>0.9925908185263527</MajorDia>
+        <PitchDia>0.9317203586208156</PitchDia>
+        <MinorDia>0.8613630657347732</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>1</MajorDia>
+        <PitchDia>0.9359672624342945</PitchDia>
+        <MinorDia>0.8719345248685889</MinorDia>
+        <TapDrill>0.9</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>1.125</Size>
+    <Designation>
+      <ThreadDesignation>1 1/8 BSF</ThreadDesignation>
+      <CTD>1 1/8 - 9 BSF</CTD>
+      <TPI>9</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>1.1172181382656443</MajorDia>
+        <PitchDia>1.0494039854148602</PitchDia>
+        <MinorDia>0.9715898325640764</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>1.125</MajorDia>
+        <PitchDia>1.0538525138158827</PitchDia>
+        <MinorDia>0.9827050276317655</MinorDia>
+        <TapDrill>1.0138888888888888</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>1.25</Size>
+    <Designation>
+      <ThreadDesignation>1 1/4 BSF</ThreadDesignation>
+      <CTD>1 1/4 - 9 BSF</CTD>
+      <TPI>9</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>1.2421437873986643</MajorDia>
+        <PitchDia>1.1743296345478804</PitchDia>
+        <MinorDia>1.0965154816970963</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>1.25</MajorDia>
+        <PitchDia>1.1788525138158827</PitchDia>
+        <MinorDia>1.1077050276317655</MinorDia>
+        <TapDrill>1.1388888888888888</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>1.375</Size>
+    <Designation>
+      <ThreadDesignation>1 3/8 BSF</ThreadDesignation>
+      <CTD>1 3/8 - 8 BSF</CTD>
+      <TPI>8</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>1.3667283711705767</MajorDia>
+        <PitchDia>1.2902229831193777</PitchDia>
+        <MinorDia>1.2031109933503803</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>1.375</MajorDia>
+        <PitchDia>1.2949590780428681</PitchDia>
+        <MinorDia>1.2149181560857363</MinorDia>
+        <TapDrill>1.25</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>1.5</Size>
+    <Designation>
+      <ThreadDesignation>1 1/2 BSF</ThreadDesignation>
+      <CTD>1 1/2 - 8 BSF</CTD>
+      <TPI>8</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>1.4916629227760394</MajorDia>
+        <PitchDia>1.4151575347248402</PitchDia>
+        <MinorDia>1.3280455449558428</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>1.5</MajorDia>
+        <PitchDia>1.4199590780428681</PitchDia>
+        <MinorDia>1.3399181560857363</MinorDia>
+        <TapDrill>1.375</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>1.625</Size>
+    <Designation>
+      <ThreadDesignation>1 5/8 BSF</ThreadDesignation>
+      <CTD>1 5/8 - 8 BSF</CTD>
+      <TPI>8</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>1.6166010165734253</MajorDia>
+        <PitchDia>1.5400956285222263</PitchDia>
+        <MinorDia>1.452983638753229</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>1.625</MajorDia>
+        <PitchDia>1.5449590780428681</PitchDia>
+        <MinorDia>1.4649181560857363</MinorDia>
+        <TapDrill>1.5</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>1.75</Size>
+    <Designation>
+      <ThreadDesignation>1 3/4 BSF</ThreadDesignation>
+      <CTD>1 3/4 - 7 BSF</CTD>
+      <TPI>7</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>1.74112464928544</MajorDia>
+        <PitchDia>1.6534289546359529</PitchDia>
+        <MinorDia>1.554394325796189</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>1.75</MajorDia>
+        <PitchDia>1.6585246606204207</PitchDia>
+        <MinorDia>1.5670493212408414</MinorDia>
+        <TapDrill>1.6071428571428572</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>2</Size>
+    <Designation>
+      <ThreadDesignation>2 BSF</ThreadDesignation>
+      <CTD>2 - 7 BSF</CTD>
+      <TPI>7</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>1.9910149494498255</MajorDia>
+        <PitchDia>1.9033192548003384</PitchDia>
+        <MinorDia>1.8042846259605745</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>2</MajorDia>
+        <PitchDia>1.9085246606204207</PitchDia>
+        <MinorDia>1.8170493212408414</MinorDia>
+        <TapDrill>1.8571428571428572</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>2.25</Size>
+    <Designation>
+      <ThreadDesignation>2 1/4 BSF</ThreadDesignation>
+      <CTD>2 1/4 - 6 BSF</CTD>
+      <TPI>6</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>2.240396035351108</MajorDia>
+        <PitchDia>2.13775728897957</PitchDia>
+        <MinorDia>2.0228710938941172</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>2.25</MajorDia>
+        <PitchDia>2.143278770723824</PitchDia>
+        <MinorDia>2.0365575414476482</MinorDia>
+        <TapDrill>2.0833333333333335</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>2.5</Size>
+    <Designation>
+      <ThreadDesignation>2 1/2 BSF</ThreadDesignation>
+      <CTD>2 1/2 - 6 BSF</CTD>
+      <TPI>6</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>2.4903023591287217</MajorDia>
+        <PitchDia>2.3876636127571844</PitchDia>
+        <MinorDia>2.2727774176717315</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>2.5</MajorDia>
+        <PitchDia>2.393278770723824</PitchDia>
+        <MinorDia>2.2865575414476482</MinorDia>
+        <TapDrill>2.3333333333333335</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>2.75</Size>
+    <Designation>
+      <ThreadDesignation>2 3/4 BSF</ThreadDesignation>
+      <CTD>2 3/4 - 6 BSF</CTD>
+      <TPI>6</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>2.7402147374146613</MajorDia>
+        <PitchDia>2.637575991043124</PitchDia>
+        <MinorDia>2.522689795957671</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>2.75</MajorDia>
+        <PitchDia>2.643278770723824</PitchDia>
+        <MinorDia>2.5365575414476482</MinorDia>
+        <TapDrill>2.5833333333333335</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>3</Size>
+    <Designation>
+      <ThreadDesignation>3 BSF</ThreadDesignation>
+      <CTD>3 - 5 BSF</CTD>
+      <TPI>5</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>2.989465763058016</MajorDia>
+        <PitchDia>2.8658724238816045</PitchDia>
+        <MinorDia>2.7288626768401945</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>3</MajorDia>
+        <PitchDia>2.871934524868589</PitchDia>
+        <MinorDia>2.743869049737178</MinorDia>
+        <TapDrill>2.8</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>3.25</Size>
+    <Designation>
+      <ThreadDesignation>3 1/4 BSF</ThreadDesignation>
+      <CTD>3 1/4 - 5 BSF</CTD>
+      <TPI>5</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>3.2393877661302235</MajorDia>
+        <PitchDia>3.115794426953812</PitchDia>
+        <MinorDia>2.9787846799124016</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>3.25</MajorDia>
+        <PitchDia>3.121934524868589</PitchDia>
+        <MinorDia>2.993869049737178</MinorDia>
+        <TapDrill>3.05</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>3.5</Size>
+    <Designation>
+      <ThreadDesignation>3 1/2 BSF</ThreadDesignation>
+      <CTD>3 1/2 - 4.5 BSF</CTD>
+      <TPI>4.5</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>3.4888998793763193</MajorDia>
+        <PitchDia>3.351318952215995</PitchDia>
+        <MinorDia>3.1995958894319396</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>3.5</MajorDia>
+        <PitchDia>3.3577050276317655</PitchDia>
+        <MinorDia>3.215410055263531</MinorDia>
+        <TapDrill>3.2777777777777777</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>3.75</Size>
+    <Designation>
+      <ThreadDesignation>3 3/4 BSF</ThreadDesignation>
+      <CTD>3 3/4 - 4.5 BSF</CTD>
+      <TPI>4.5</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>3.738829235842241</MajorDia>
+        <PitchDia>3.6012483086819165</PitchDia>
+        <MinorDia>3.4495252458978616</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>3.75</MajorDia>
+        <PitchDia>3.6077050276317655</PitchDia>
+        <MinorDia>3.465410055263531</MinorDia>
+        <TapDrill>3.5277777777777777</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>4</Size>
+    <Designation>
+      <ThreadDesignation>4 BSF</ThreadDesignation>
+      <CTD>4 - 4.5 BSF</CTD>
+      <TPI>4.5</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>3.988761666244258</MajorDia>
+        <PitchDia>3.8511807390839343</PitchDia>
+        <MinorDia>3.699457676299879</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>4</MajorDia>
+        <PitchDia>3.8577050276317655</PitchDia>
+        <MinorDia>3.715410055263531</MinorDia>
+        <TapDrill>3.7777777777777777</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>4.25</Size>
+    <Designation>
+      <ThreadDesignation>4 1/4 BSF</ThreadDesignation>
+      <CTD>4 1/4 - 4 BSF</CTD>
+      <TPI>4</TPI>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>Medium</Class>
+        <MajorDia>4.238207721331767</MajorDia>
+        <PitchDia>4.083125877417503</PitchDia>
+        <MinorDia>3.9130440335032395</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>Medium</Class>
+        <MajorDia>4.25</MajorDia>
+        <PitchDia>4.089918156085736</PitchDia>
+        <MinorDia>3.9298363121714726</MinorDia>
+        <TapDrill>4</TapDrill>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+
+</ThreadType>
